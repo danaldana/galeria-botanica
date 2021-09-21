@@ -1,0 +1,114 @@
+/*
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1DCC4;
+}
+
+.logo {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    opacity: 0.3;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.figure{
+    background-color: gainsboro;
+    width: 220px;
+    height: 190px;
+    margin: 10px auto;
+}
+
+.imagen{
+    border: 0.5px solid rgb(212, 212, 212);
+}
+*/
+
+body{
+    background-color: #ede4d9;
+    font-family: Georgia;
+    text-align: center;
+}
+
+.logo {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.logo:hover{
+    opacity: 0.3;
+}
+
+.figure{
+    background-color: #c2b7aa;
+    width: 220px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 0.5em;
+    transition: 0.3s;
+}
+
+.figure:hover{
+    background-color: #d2c6b8;
+}
+
+
+figure{
+    margin: 1px auto;
+    padding-top: 10px;
+}
+
+
+figcaption{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: rgb(101, 94, 85);
+    font-family: Georgia;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+figcaption > img{
+    margin-right: 5px;
+}
+
+img{
+    opacity: 0.8;
+    border-radius: 0.5em;
+    transition: 0.3s;
+}
+
+img:hover{
+    opacity: 1;
+}
