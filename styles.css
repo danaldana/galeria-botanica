@@ -1,3 +1,5 @@
+/* --- GENERALES --- */
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +7,12 @@
 }
 
 body{
-    background-color: #ede4d9;
+    background-color: #f6ffe9;
     font-family: Georgia;
     text-align: center;
 }
+
+/* --- LOGO --- */
 
 .logo {
     height: 200px;
@@ -23,8 +27,10 @@ body{
     opacity: 0.3;
 }
 
+/* --- TARJETAS --- */
+
 .figure{
-    background-color: #c2b7aa;
+    background-color: #b2bba4;
     width: 220px;
     height: 200px;
     margin: 10px auto;
@@ -32,16 +38,10 @@ body{
     transition: 0.3s;
 }
 
-.figure:hover{
-    background-color: #d2c6b8;
-}
-
-
 figure{
     margin: 1px auto;
     padding-top: 10px;
 }
-
 
 figcaption{
     text-align: left;
@@ -70,6 +70,43 @@ img{
     transition: 0.3s;
 }
 
+/* --- HOVERS --- */
+
 img:hover{
     opacity: 1;
+}
+
+.figure:hover{
+    background-color: #dbdfd4;
+}
+
+/* --- MODAL --- */
+
+.modal{
+    width: 750px;
+    height: 450px;
+    background-color: #dbdfd4;
+    color: rgb(103, 100, 100);
+    border-radius: 1.5em;
+    box-shadow: 0px 5px 10px 0px rgba(60, 60, 60, 0.5);
+    padding-top: 100px;
+    padding: 40px;
+    position: absolute;
+    align-self: center;
+}
+
+.ocultar{
+    display: none;
+}
+
+h3{
+    font-size: 30px;
+}
+
+p{
+    margin-top: 40px;
+}
+
+#cerrar-modal{
+    margin-top: 50px;
 }
